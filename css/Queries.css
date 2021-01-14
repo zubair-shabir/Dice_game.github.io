@@ -1,0 +1,160 @@
+  /* big tablets to 1200px (smaller than 1140px row) */
+
+@media only screen and (max-width: 1200px) {
+	
+
+
+
+
+
+ /* small tablets to big tablets 768px - 1023px */
+
+
+@media only screen and (max-width:1023px){
+
+	.current-box{    		
+    		margin: 70px 70px;
+            height: 25%;
+       		width: 50%;           
+    	}
+	.btn-new{ left:  41%; }
+ 	.btn-rule{ left:  44%; }
+	.btn-roll{ right: 41%; }
+    .btn-hold{ right: 46%; }   	
+	.dice{ left:  42%; }
+
+}
+
+
+
+ /* small phones to small tablets 481px - 767px */
+
+@media only screen and (max-width:767px){
+		
+	.game-box{
+	    width: 90%;
+	    margin: 30px 30px;
+    
+    }
+     .player-name{
+    	font-size: 80%;
+    }
+    
+  	.current-box{    		
+    	margin: 125px 80px;
+    	padding: 10px 10px;
+        height: 20%;
+       	width: 45%;           
+    }
+    .current-label{
+    	font-size: 30%;
+        padding: 10px 0;
+    }
+    .current-score{
+    		font-size: 50%;
+    		font-weight: 400;
+            
+    }
+    button{	font-size: 70%; }
+    .btn-new{
+    		top: 13%;
+    		left: 41%;
+    	}
+        .btn-rule{
+            top: 25%;
+            left: 44%;
+        }
+    	.btn-roll{
+    		bottom: 25%; 
+    		right: 42%;
+    	}
+    	.btn-hold{
+    		bottom: 15%; 
+            right: 46%;
+    	}
+    	.dice{
+    		top: 40%;
+            left: 43%;
+    	}
+        .rules-book{       
+        padding: 5px;
+        width: 90%;        
+        top: 10%;
+        left: 5%;        
+        font-size: 60%;
+    }        	
+ 	
+
+
+}
+
+/* small phones 0 - 480px */
+
+@media only screen and (max-width:480px){
+
+	.game-box{
+	    width: 100%;
+	    height: 350px;
+	    margin: 50px 0px;    
+    }
+   .player-name{
+    	font-size: 60%;
+    	margin: 30px 10px;
+    }
+    .total-score{
+    	font-size: 60%;
+    	margin: 5px 30px;
+    }
+    .current-box{    		
+    	margin: 100px 40px;
+    	padding: 10px 10px;
+        height: 20%;
+       	width: 50%;           
+    }
+    .current-label{
+    	font-size: 25%;
+        padding: 0px 0;
+    	}
+    .current-score{
+    		font-size: 60%;
+            font-weight: 100;
+    	}
+    	button{	font-size: 20px;
+    	display: block; }	
+
+       	.dice{ 
+			width: 60px;
+    		left:  44%;
+    	 }
+    	 .btn-new{
+    		bottom: -103%;
+    		left: 5%;
+    	}
+        .btn-rule{
+            bottom: -90%;
+            left:   70%;
+        }
+    	.btn-roll{
+    		top: 15%;
+    		left: 10%;
+    	}
+    	.btn-hold{
+    		top: 5%; 
+            right: 18%;
+    	}
+        .rules-book{       
+        padding: 5px;
+        width: 90%;        
+        top: 10%;
+        left: 5%;        
+        font-size: 45%;
+    }
+
+
+    	
+}
+
+ 
+
+ 
+
